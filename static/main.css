@@ -1,0 +1,27 @@
+h1{
+	color: mediumslateblue;
+}
+body{
+	background-color: darkgrey;
+}
+table{
+	float:right;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	outline: groove;
+	border-left: dashed;
+}
+form{
+	background-color: #333333;
+	border-color: black;
+	border:1px solid white;
+	width: 300px;
+	padding: 25px 25px 25px;
+}
+p {
+	color:ghostwhite;
+}
+footer{
+	padding-top: 10px;
+}

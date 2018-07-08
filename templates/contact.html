@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='main.css') }}">
+</head>
+<body>
+	<div>
+		<nav>
+			<table>
+				<tr>
+					<th><a href="/">Home</a></th>
+					<th><a href="/contact.html">Contact</a></th>
+					<th><a href="/query.html">Query</a></th>
+					<th><a href="/signup.html">SignUp</a></th>
+				</tr>
+			</table>
+		</nav>
+	</div>
+<h1>Contact here</h1>
+
+{% for key,value in data.items() %}
+<p style="font-size:xx-large;color:azure;">
+{{ key }} = {{ value }}</p>
+
+{% endfor %}
+
+<footer align="center">copyrights&nbsp; &copy;Grras Solutions Pvt. Ltd</footer>
+</body>
+</html>

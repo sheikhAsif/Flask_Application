@@ -1,0 +1,31 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='main.css') }}">
+	</head>
+	<body>
+	<h1 style="color:mediumvioletred">{{ data }}
+		<div>
+			<nav>
+				<table>
+					<tr>
+						<th><a href="/">Home</a></th>
+						<th><a href="/hello123">Contact</a></th>
+						<th><a href="/query.html">Query</a></th>
+						<th><a href="/signin.html">SignUp</a></th>
+					</tr>
+				</table>
+			</nav>
+		</div>
+		<h1 align="center">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Welcome to first project in CGI</h1>
+		<center>
+			<form method="post" action="/cgi-bin/login.py">
+				<p>User&nbsp;Name&nbsp;:&nbsp;<input type="text" name="username"></p>
+				<p>Password&nbsp;&nbsp;:&nbsp;&nbsp;<input type="password" name="password"></p>
+				<p><input type="submit" value="LOGIN"></p>
+			</form>
+		</center>
+		<footer align="center">copyrights&nbsp; &copy;Grras Solutions Pvt. Ltd</footer>
+	</body>
+</html>
